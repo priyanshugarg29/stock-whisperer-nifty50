@@ -6,6 +6,18 @@ This project combines deep learning (LSTM), dynamic portfolio allocation, and re
 
 ---
 
+## Disclaimer
+This project is intended solely for exploratory, academic, and educational purposes.
+
+The predictions and returns shown are based on historical data and simplified assumptions. They do not account for transaction costs, slippage, execution latency, liquidity, or real-world brokerage constraints.
+
+Do not use this project to make actual investment decisions.
+The project author does not offer financial advice and assumes no liability for any losses incurred.
+
+Always consult a licensed financial professional before making trading or investment decisions.
+
+---
+
 ## Project Highlights
 
 - **Daily LSTM Predictions**: Uses past 7-day stock data to forecast next-day intraday returns (open → close).
@@ -109,18 +121,6 @@ stock-whisperer-nifty50/
 │
 ├── evaluation/
 │   └── backtester.py             # Rolling 10-day evaluation logic
-
----
-
-## Disclaimer
-This project is intended solely for exploratory, academic, and educational purposes.
-
-The predictions and returns shown are based on historical data and simplified assumptions. They do not account for transaction costs, slippage, execution latency, liquidity, or real-world brokerage constraints.
-
-Do not use this project to make actual investment decisions.
-The project author does not offer financial advice and assumes no liability for any losses incurred.
-
-Always consult a licensed financial professional before making trading or investment decisions.
 
 ---
 
