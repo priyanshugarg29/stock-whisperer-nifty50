@@ -101,6 +101,8 @@ streamlit run app.py
 
 ## Project Structure
 
+```
+
 stock-whisperer-nifty50/
 │
 ├── app.py                        # Main Streamlit dashboard
@@ -121,6 +123,8 @@ stock-whisperer-nifty50/
 │
 ├── evaluation/
 │   └── backtester.py             # Rolling 10-day evaluation logic
+
+```
 
 ---
 
