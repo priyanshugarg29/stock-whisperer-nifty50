@@ -6,7 +6,7 @@ This project combines deep learning (LSTM), dynamic portfolio allocation, and re
 
 ---
 
-## 🔍 Project Highlights
+## Project Highlights
 
 - **Daily LSTM Predictions**: Uses past 7-day stock data to forecast next-day intraday returns (open → close).
 - **Dynamic Budget Allocation**: Applies a greedy knapsack-based approach to invest ₹10,000 optimally across top 5 predicted stocks.
