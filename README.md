@@ -83,3 +83,51 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
+```
+
+---
+
+## Project Structure
+
+stock-whisperer-nifty50/
+│
+├── app.py                        # Main Streamlit dashboard
+├── requirements.txt              # All required libraries
+├── README.md                     # This file
+│
+├── data/
+|   ├── README.md                 # README file for data directory
+│   └── evaluation_results.csv    # Backtest output (precomputed)
+│
+├── models/
+│   ├── lstm_model.py             # LSTM model training + prediction
+│   └── predictor.py              # Predict top 5 stocks
+│
+├── utils/
+│   ├── data_loader.py            # Load historical price data
+│   └── dp_allocator.py           # Budget allocation strategy
+│
+├── evaluation/
+│   └── backtester.py             # Rolling 10-day evaluation logic
+
+---
+
+## Disclaimer
+This project is intended solely for exploratory, academic, and educational purposes.
+
+The predictions and returns shown are based on historical data and simplified assumptions. They do not account for transaction costs, slippage, execution latency, liquidity, or real-world brokerage constraints.
+
+Do not use this project to make actual investment decisions.
+The project author does not offer financial advice and assumes no liability for any losses incurred.
+
+Always consult a licensed financial professional before making trading or investment decisions.
+
+---
+
+## Contact
+
+For academic collaborations, technical queries, or feedback, feel free to connect via GitHub or LinkedIn.
+
+https://www.linkedin.com/in/priyanshu-garg-60544a178/
+
+---
