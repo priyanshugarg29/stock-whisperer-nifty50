@@ -1,10 +1,4 @@
-
----
-
-## `evaluation/README.md`
-
-```markdown
-# 📁 evaluation/
+#  evaluation/
 
 This module implements the **backtesting engine** for the Stock Whisperer project.
 
