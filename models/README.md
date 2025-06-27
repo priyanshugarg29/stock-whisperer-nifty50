@@ -1,4 +1,4 @@
-# 📁 models/
+# models/
 
 This directory contains the core machine learning logic for the **Stock Whisperer** project.  
 It includes functions to prepare data, train LSTM models, and generate stock-level return predictions.
