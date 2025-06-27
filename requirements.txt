@@ -1,6 +1,8 @@
-streamlit==1.34.0
-tensorflow==2.15.0
+streamlit==1.33.0
 pandas==2.2.2
 numpy==1.26.4
-scikit-learn==1.4.1
-yfinance==0.2.57
+matplotlib==3.8.4
+yfinance==0.2.37
+tensorflow==2.15.0
+scikit-learn==1.4.2
+rich==14.0.0
