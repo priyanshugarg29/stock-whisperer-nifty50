@@ -1,8 +1,8 @@
-streamlit
+streamlit==1.46.1
 pandas
 numpy
 matplotlib
+seaborn
 yfinance
-tensorflow
 scikit-learn
-rich
+tensorflow==2.15.0
