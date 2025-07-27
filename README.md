@@ -1,4 +1,4 @@
-# Stock Whisperer: Hear What the NIFTY50 Will Say Tomorrow
+# Stock Whisperer: Hear What the NIFTY50 Will Say Tomorrow (Under Development)
 
 **Stock Whisperer** is an intelligent dashboard that predicts the top 5 NIFTY50 stocks likely to generate the highest intraday profit tomorrow — and allocates a given budget across them using dynamic programming.
 
